@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+.nome{
+    color: white;
+}
+.sub__titulo{
+ 
+    color:#FFE700;
+    font-size: 20px;
+    padding: auto;
+}
+
+.paragrafo{
+    color: #D1D8C5;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color:#3C3D37;
+    padding: 20px;
+    flex-direction: column;
+    width: 30%;
+    max-width: 600px; /* Limita a largura máxima a 600px */
+    height: 30%;
+    margin: auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    
+
+}
+.container img{
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
+.link{
+   flex-direction: column;
+   display:flex;
+   padding: 10px 60px;
+   margin-bottom: 15px;
+   border-radius: 10px;
+   background-color:#697565;
+   border: 2px solid #697565;
+   align-items: center;
+   font-size: 15px;
+ 
+}
+
+.link:hover{
+    background-color:#27374D;
+}
+.link__texto{
+    color: white;
+    text-decoration: none;
+    font-size: 1,5em;  
+    cursor: pointer;
+}
+
+/* ...existing CSS ... */
+
+@media (max-width: 768px) {
+    .container {
+      width: 70%;
+      position: relative;
+      top: 30px;
+      right: 10px;
+    }
+  
+    .link {
+      padding: 10px 20px; /* Adjust padding for smaller screens */
+
+    }
+    .link:hover{
+        background-color: #27374D;
+    }
+  
+    /* Other adjustments as needed, such as font sizes, spacing, etc. */
+  }
+
+
+
