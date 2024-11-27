@@ -71,7 +71,7 @@ body{
   
     .link {
       padding: 10px 20px; /* Adjust padding for smaller screens */
-
+      margin-right: 30px ;
     }
     .link:hover{
         background-color: #27374D;
