@@ -62,12 +62,12 @@ body{
 
 @media (max-width: 768px) {
     .container {
-      width: 70%;
+      width: 90%;
       position: relative;
       top: 30px;
       margin-top: -5px;
       right: 10px;
-      background-color:#3C3D37;
+      background-color:black;
     }
   
     .link {
